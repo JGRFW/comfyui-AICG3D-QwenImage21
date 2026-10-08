@@ -1,0 +1,19 @@
+[project]
+name = "aicg3d-qwenimage21"
+description = "Qwen-Image 2.1 ComfyUI 推理加速节点（AICG3D 整理版）"
+readme = "README.md"
+keywords = ["Qwen-Image", "QwenImage21", "推理加速", "ComfyUI", "AICG3D"]
+version = "1.0.0"
+license = {text = "Apache-2.0"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/JGRFW/comfyui-AICG3D-QwenImage21"
+
+[tool.comfy]
+PublisherId = "aicg3d"
+DisplayName = "AICG3D QwenImage21"
+Icon = ""
+
+[project.license-files]
+include = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
